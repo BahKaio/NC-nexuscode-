@@ -514,15 +514,15 @@ body{
     /*Cabeçalho*/
     /*-Textos Box 1-*/
     .nxs{
-        font-size: 40px;
-        top: 9vw;
+        font-size: 30px;
+        top: 17vw;
         left: 7vw;
     }
 
     /*-titulo 1-*/
     .tittle1{
-        font-size: 60px;
-        top: 22vw;
+        font-size: 50px;
+        top: 40vw;
         left: 12vw;
     }
 
@@ -589,7 +589,7 @@ body{
     /*Formulário*/
     .form{
         width: 80vw;
-        height: 1060px;
+        height: 900px;
     }
 
     /*Título 4*/
@@ -599,13 +599,17 @@ body{
     }
 
     .label{
-        margin-left: 30px;
+        text-align: center;
+        margin-left: 20px;
+        font-size: 25px;
+        width: 150px;
     }
 
     /*-Input-*/
     .input{
         display: flex;
-        margin: 50px auto;
+        margin: 25px auto;
+        font-size: 23px;
     }
 
     /*-Botão Enviar-*/
@@ -613,17 +617,16 @@ body{
         width: 250px;
         height: 110px;
         font-size: 35px;
-        margin-bottom: 50px;
     }
 
     /*--Footer e links para contato--*/
     /*-Contatos-*/
     .ctt{
-        width: 100px;
+        width: 75px;
     }
 
     /*-Texto footer-*/
     .txt-ft{
-        font-size: 25px;
+        font-size: 20px;
     }
 }
