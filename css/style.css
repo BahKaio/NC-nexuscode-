@@ -529,19 +529,25 @@ body{
     /*--Seção 1--*/
     /*- Sobre nós-*/
     .tittle2{
+        width: 350px;
         font-size: 60px; 
      }
+
+     /*-Texto 1-*/
+    .txt1{
+        width: 80vw;
+    }
 
     /*--Seção 2--*/
     /*-título 3-*/
     .tittle3{
-        font-size: 60px;
+        font-size: 40px;
     }
 
     /*-box dos modelos-*/
     .box3{
-        width: 580px;
-        height: 500px;
+        width: 400px;
+        height: 370px;
         display: flex;
         justify-content: center;
     }
@@ -558,9 +564,9 @@ body{
 
     /*-modelo mobile 1-*/
     .mobile1{
-        width: 220px;
+        width: 140px;
         height: auto;
-        border-radius: 36px;
+        border-radius: 24px;
         top: 50px;
         right: 0;
     }
@@ -568,15 +574,15 @@ body{
     /*--botões--*/
     /*-botão 1*/
     .btn1{
-        width: 100px;
-        margin: 0 35px 100px;
+        width: 50px;
+        margin: 0 35px 50px;
     }
 
     /*-botão 2*/
     .btn2{
-        width: 100px;
+        width: 50px;
         margin-left: 35px;
-        margin-bottom: 100px;
+        margin-bottom: 50px;
     }
 
     /*--Formulário, seção 3--*/
