@@ -1,0 +1,623 @@
+/*--Formatação--*/
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: linear-gradient(315deg, #4a016b 1%, #000000);
+    overflow-x: hidden;
+}
+
+/*--Scrollbar--*/
+::-webkit-scrollbar{
+    background-color: #18012b; 
+    width: 12px;
+}
+  
+::-webkit-scrollbar-track{
+    border-radius: 10px;
+}
+  
+::-webkit-scrollbar-thumb{
+    background: #4b0383; 
+    border-radius: 10px;
+}
+  
+::-webkit-scrollbar-thumb:hover{
+    background: #7737FF; 
+}
+
+/*--Fontes--*/
+/*-Inter-*/
+.inter{
+    font-family: "Inter";
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+/*--Cabeçalho--*/
+/*-Imagem de background-*/
+.box-bg{
+    width: 70vw;
+    height: 800px;
+    position: absolute;
+    left: 50%;
+    top: 50px;
+    transform: translateX(-50%);
+}
+
+.img-bg{
+    height: 750px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: drop-shadow(rgba(0, 0, 0, 0.7) 10px 10px 20px);
+}
+
+/*-Box com blur-*/
+.box1{
+    width: 70vw;
+    height: 800px;
+    max-width: 1800px;
+    background-color: rgba(86, 86, 86, 0.2);
+    border-radius: 25px;
+    border: #808080 1px solid; 
+    backdrop-filter: blur(10px);
+    margin: 50px auto;
+    filter: drop-shadow(rgba(255, 255, 255, 0.2) 10px 10px 20px);
+}
+
+/*-Textos Box 1-*/
+.nxs{
+    font-family: Inter;
+    font-size: 50px;
+    text-align: left;
+    color: #ffffff;
+    position: absolute;
+    top: 5vw;
+    left: 7vw;
+    text-shadow: #8403C0 0px 0px 30px;
+}
+
+/*-titulo 1-*/
+.tittle1{
+    font-family: Inter;
+    font-size: 100px;
+    text-align: left;
+    color: #ffffff;
+    position: absolute;
+    top: 17vw;
+    left: 9vw;
+    text-shadow: #8403C0 0px 0px 30px;
+    width: 735px;
+}
+
+/*--Seção 1--*/
+/*-seção 1-*/
+.section1{
+    height: auto;
+}
+
+/*-linha 1-*/
+.hr1{
+    width: 85vw;
+    max-width: 2400px;
+    border: 1px solid #FFFFFF;
+    border-radius: 1px;
+    margin: 200px auto 0;
+}
+
+/*-sobre nós-*/
+.tittle2{
+    font-family: Inter;
+    font-size: 80px;
+    text-align: left;
+    color: #ffffff;
+    width: 500px;
+    margin: 100px auto 75px 10vw;
+    text-shadow: #8403C0 0px 0px 20px;
+}
+
+/*-texto 1-*/
+.txt1{
+    font-family: Inter;
+    font-size: 60px;
+    text-align: left;
+    color: #ffffff;
+    width: 65vw;
+    max-width: 1800px;
+    margin: 50px auto 100px;
+}
+
+/*-Nexuscode-*/
+.span1{
+    text-shadow: #8403C0 0px 0px 20px;
+}
+
+/*-linha 2-*/
+.hr2{
+    width: 85vw;
+    max-width: 2400px;
+    border: 1px solid #FFFFFF;
+    border-radius: 1px;
+    margin: 50px auto;
+}
+
+/*--Seção 2--*/
+/*-título 3-*/
+.tittle3{
+    width: 80vw;
+    max-width: 1225px;
+    font-family: Inter;
+    font-size: 80px;
+    color: #ffffff;
+    text-shadow: #8403C0 0px 0px 20px;
+    text-align: center;
+    margin: 150px auto 0;
+}
+
+/*-box dos modelos-*/
+.box3{
+    width: 1450px;
+    max-width: 1450px;
+    height: 820px;
+    margin: 150px auto 0;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    filter: drop-shadow(rgba(86, 86, 86, 0.5) 30px 30px 130px), blur(50px);
+}
+
+.box3-1{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*-modelo desktop 1-*/
+.desktop1{
+    border-radius: 32px;
+    position: relative;
+    bottom: 50px;
+    left: 70px;
+    filter: drop-shadow(rgba(217, 217, 217, 0.25) 0px 0px 30px);
+}
+
+/*-modelo mobile 1-*/
+.mobile1{
+    border-radius: 42px;
+    position: relative;
+    top: 50px;
+    right: 70px;
+    filter: drop-shadow(rgba(217, 217, 217, 0.25) 0px 0px 30px);
+}
+
+/*--botões--*/
+/*-botão 1*/
+.btn1{
+    margin-left: 25px;
+    margin-bottom: 175px;
+}
+
+/*-botão 2*/
+.btn2{
+    margin-bottom: 175px;
+}
+
+/*-Hover botões 1 e 2-*/
+.btn1:hover, .btn2:hover{
+    filter: drop-shadow(#8403C0 0px 0px 20px);
+    transition-duration: 0.2s;
+}
+
+/*-focus botões 1 e 2-*/
+.btn1:focus, .btn2:focus{
+    filter: drop-shadow(#ffffff 0px 0px 10px);
+    transition-duration: 0.2s;
+}
+
+/*--Formulário, seção 3--*/
+/*Linha 3*/
+.hr3{
+    width: 85vw;
+    max-width: 2400px;
+    border: 1px solid #FFFFFF;
+    border-radius: 1px;
+    margin: 150px auto;
+}
+
+/*Título 4*/
+.tittle4{
+    width: 80vw;
+    max-width: 1225px;
+    font-family: Inter;
+    font-size: 80px;
+    color: #ffffff;
+    text-shadow: #8403C0 0px 0px 20px;
+    text-align: center;
+    margin: 75px auto;
+}
+
+/*Formulário*/
+.form{
+    width: 75vw;
+    height: 1030px;
+    max-width: 1155px;
+    padding-top: 70px;
+    border: 1px solid #D9D9D9 ;
+    border-radius: 50px;
+    background: rgba(171, 170, 170, 0.35);
+    margin: 150px auto 0;
+    font-family: Inter;
+    filter: drop-shadow(#000000 30px 30px 130px);
+    box-sizing: content-box;
+    display: block;
+}
+
+/*Nome, Email e Mensagem para contato*/
+.label{
+    width: 350px;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: left;
+    margin-left: 70px;
+}
+
+/*-Input-*/
+.input{
+    width: 85%;
+    height: 75px;
+    max-width: 910px;
+    color: #606060;
+    font-size: 30px;
+    font-weight: 600;
+    background: #D9D9D9;
+    border: none;
+    border-radius: 25px;
+    filter: drop-shadow(rgba(0, 0, 0, 0.5) 0px 0px 5px);
+    margin: 50px 0px 50px 120px;
+    box-sizing: border-box;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.input:first-child{
+    position: absolute;
+    top: 50px;
+}
+
+.textarea{
+    height: 290px;
+    font-family: Inter;
+    box-sizing: border-box;
+    padding: 30px;
+    padding-left: 30px;
+    resize: none;
+}
+
+/*--*/
+.a{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/*-Botão Enviar-*/
+.btn3{
+    width: 400px;
+    height: 120px;
+    background: #670097;
+    color: #FFFFFF;
+    font-size: 45px;
+    font-weight: 600;
+    border: none;
+    border-radius: 70px;
+    filter: drop-shadow(rgba(0, 0, 0, 0.25) 8px 10px 20px);
+}
+
+/*-Hover formulário-*/
+/*-Input-*/
+.input:hover{
+    cursor: pointer;
+    border: 1px solid #AE00FF;
+    transition-duration: 0.2s;
+}
+
+/*-Botão Enviar-*/
+.btn3:hover{
+    cursor: pointer;
+    transition-duration: 0.2s;
+    filter: drop-shadow(rgba(255, 255, 255, 0.5)  8px 10px 20px);
+}
+
+/*-Focus formulário-*/
+/*-Input-*/
+.input:focus{
+    cursor: pointer;
+    background-color: #a7a7a7;
+    outline: #AE00FF 3px solid;
+    transition-duration: 0.2s;
+}
+
+/*-Botão Enviar-*/
+.btn3:focus{
+    cursor: pointer;
+    transition-duration: 0.15s;
+    filter: drop-shadow(rgba(255, 255, 255, 0.5)  8px 10px 20px);
+    background-color: #4c066d;
+    color: #cfcfcf;
+}
+
+/*--Footer e links para contato--*/
+/*-footer-*/
+.ft{
+    background-image: linear-gradient(0deg, #1B1021, rgba(0, 0, 0, 0));
+}
+
+/*-box links para contato-*/
+.box-ctt{
+    width: 100vw;
+    max-width: 1400px;
+    margin: 110px auto 75px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*-Links para contato-*/
+.ctt{
+    filter: drop-shadow(#000000 0px 0px 60px);
+    cursor: pointer;
+}
+
+/*-Linha 4-*/
+.hr4{
+    width: 85vw;
+    max-width: 2400px;
+    border: 1px solid #FFFFFF;
+    border-radius: 1px;
+    margin: 50px auto;
+}
+
+/*-Texto footer-*/
+.txt-ft{
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 35px;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 0 0 50px;
+    cursor: default;
+}
+
+/*-span 2, nexuscode roxo-*/
+.span2{
+    cursor: pointer;
+    color: #AE00FF;
+}
+
+/*-Hover & Focus footer-*/
+/*-Links para contato-*/
+.ctt:hover, .ctt:focus{
+    filter: drop-shadow(rgba(255, 255, 255, 0.5) 0px 0px 45px);
+    transition-duration: 0.2s;
+}
+
+/*-span 2, nexuscode roxo-*/
+.span2:hover, .span2:focus{
+    filter: drop-shadow(#8403C0 0px 0px 15px);
+    transition-duration: 0.2s;
+}
+
+
+/*---Media querys---*/
+/*--Tablet--*/
+@media only screen and (max-width: 1190px){
+    
+    /*--Cabeçalho--*/
+    /*-Foto atras do blur-*/
+    .img-bg{
+        width: 50vw;
+        height: auto;
+        top: 45vh;
+        left: 50%;
+        transform: translate(-50%, );
+    }
+
+    /*-Box com blur-*/
+    .box1{
+        height: 60vw;
+        min-height: 600px;
+    }
+    
+    /*-titulo 1-*/
+    .tittle1{ 
+        font-size: 70px;
+        width: 70%; 
+    }
+
+    /*--Seção 1--*/
+    /*- Sobre nós-*/
+    .tittle2{
+       font-size: 70px; 
+    }
+
+    /*-texto 1-*/
+    .txt1{
+        font-size: 40px;
+    }
+
+    /*--Seção 2--*/
+    /*-título 3-*/
+    .tittle3{
+        font-size: 70px;
+    }
+
+    /*-box dos modelos-*/
+    .box3{
+        width: 750px;
+        height: 500px;
+    }
+
+    /*-modelo desktop 1-*/
+    .desktop1{
+        width: 400px;
+        height: auto;
+        border-radius: 5.5%;
+        bottom: 30px;
+        left: 20px;
+    }
+
+    /*-modelo mobile 1-*/
+    .mobile1{
+        width: 120px;
+        height: auto;
+        border-radius: 13.5%;
+        top: 30px;
+        right: 20px;
+    }
+
+    /*--botões--*/
+    /*-botão 1*/
+    .btn1{
+        width: 70px;
+        margin-left: 40px;
+        margin-bottom: 75px;
+    }
+
+    /*-botão 2*/
+    .btn2{
+        width: 70px;
+        margin-right: 0;
+        margin-bottom: 75px;
+    }
+
+    /*--Formulário, seção 3--*/
+    /*Título 4*/
+    .tittle4{
+        font-size: 70px;
+    }
+
+    /*-Input-*/
+    .input{
+        margin: 50px 0px 50px 50px;
+    }
+
+}
+
+/*--Smartphone--*/
+@media screen and (max-width: 767px){
+    
+    /*Cabeçalho*/
+    /*-Textos Box 1-*/
+    .nxs{
+        font-size: 40px;
+        top: 9vw;
+        left: 7vw;
+    }
+
+    /*-titulo 1-*/
+    .tittle1{
+        font-size: 60px;
+        top: 22vw;
+        left: 12vw;
+    }
+
+    /*--Seção 1--*/
+    /*- Sobre nós-*/
+    .tittle2{
+        font-size: 60px; 
+     }
+
+    /*--Seção 2--*/
+    /*-título 3-*/
+    .tittle3{
+        font-size: 60px;
+    }
+
+    /*-box dos modelos-*/
+    .box3{
+        width: 580px;
+        height: 500px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .box3-1{
+        width: 100%;
+    }
+
+    /*-modelo desktop 1-*/
+    .desktop1{
+        width: 0;
+        height: 0;
+    }
+
+    /*-modelo mobile 1-*/
+    .mobile1{
+        width: 220px;
+        height: auto;
+        border-radius: 36px;
+        top: 50px;
+        right: 0;
+    }
+
+    /*--botões--*/
+    /*-botão 1*/
+    .btn1{
+        width: 100px;
+        margin: 0 35px 100px;
+    }
+
+    /*-botão 2*/
+    .btn2{
+        width: 100px;
+        margin-left: 35px;
+        margin-bottom: 100px;
+    }
+
+    /*--Formulário, seção 3--*/
+    /*Formulário*/
+    .form{
+        width: 80vw;
+        height: 1060px;
+    }
+
+    /*Título 4*/
+    .tittle4{
+        font-size: 55px;
+        width: 90vw;
+    }
+
+    .label{
+        margin-left: 30px;
+    }
+
+    /*-Input-*/
+    .input{
+        display: flex;
+        margin: 50px auto;
+    }
+
+    /*-Botão Enviar-*/
+    .btn3{
+        width: 250px;
+        height: 110px;
+        font-size: 35px;
+        margin-bottom: 50px;
+    }
+
+    /*--Footer e links para contato--*/
+    /*-Contatos-*/
+    .ctt{
+        width: 100px;
+    }
+
+    /*-Texto footer-*/
+    .txt-ft{
+        font-size: 25px;
+    }
+}
