@@ -349,7 +349,7 @@ body{
 .btn3:hover{
     cursor: pointer;
     transition-duration: 0.2s;
-    filter: drop-shadow(rgba(255, 255, 255, 0.5)  8px 10px 20px);
+    filter: drop-shadow(rgba(255, 255, 255, 0.5)  0px 0px 20px);
 }
 
 /*-Focus formulário-*/
