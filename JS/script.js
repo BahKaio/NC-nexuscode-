@@ -19,7 +19,7 @@ span2.addEventListener('click', () =>{
     function changeSlide(direction) {
       const desktopCarousel = document.querySelector('.carousel-desktop .carousel-images');
       const mobileCarousel = document.querySelector('.carousel-mobile .carousel-images');
-      const isMobile = window.matchMedia("(max-width: 768px)").matches;
+      const isMobile = window.matchMedia("(max-width: 767px)").matches;
 
       const carousel = isMobile ? mobileCarousel : desktopCarousel;
 

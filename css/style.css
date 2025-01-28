@@ -226,6 +226,7 @@ body{
 
 /*-Hover botões 1 e 2-*/
 .btn1:hover, .btn2:hover{
+    cursor: pointer;
     filter: drop-shadow(#8403C0 0px 0px 20px);
     transition-duration: 0.2s;
 }
@@ -433,15 +434,15 @@ body{
 /*---Media querys---*/
 /*--Tablet--*/
 @media only screen and (max-width: 1190px){
-    
+
     /*--Cabeçalho--*/
     /*-Foto atras do blur-*/
     .img-bg{
         width: 50vw;
         height: auto;
-        top: 45vh;
+        position: absolute;
+        top: 40%;
         left: 50%;
-        transform: translate(-50%, );
     }
 
     /*-Box com blur-*/
@@ -479,28 +480,39 @@ body{
         height: 500px;
     }
 
+    .box3-1{
+        width: 70%;
+        margin-top: 80px;
+        padding-top: 10px;
+    }
+
+    .carousel-images {
+        transition: transform 0.5s ease-in-out;
+        gap: 0;
+    }
+
     /*-modelo desktop 1-*/
     .desktop1{
         width: 400px;
         height: auto;
         border-radius: 5.5%;
-        bottom: 30px;
-        left: 20px;
+        margin-left: 0;
+        filter: drop-shadow(rgba(217, 217, 217, 0.25) 0px 0px 2px);
     }
 
     /*--botões--*/
     /*-botão 1*/
     .btn1{
         width: 70px;
-        margin-left: 40px;
-        margin-bottom: 75px;
+        height: 70px;
+        margin: 200px 20px 0 0;
     }
 
     /*-botão 2*/
     .btn2{
         width: 70px;
-        margin-right: 0;
-        margin-bottom: 75px;
+        height: 70px;
+        margin: 200px 0 0 20px;
     }
 
     /*--Formulário, seção 3--*/
