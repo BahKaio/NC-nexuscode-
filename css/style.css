@@ -147,6 +147,9 @@ body{
 }
 
 /*--Seção 2--*/
+.section2{
+    display: none;
+}
 /*-título 3-*/
 .tittle3{
     width: 80vw;
@@ -240,11 +243,14 @@ body{
 /*--Formulário, seção 3--*/
 /*Linha 3*/
 .hr3{
+    display: none;
+    /*
     width: 85vw;
     max-width: 2400px;
     border: 1px solid #FFFFFF;
     border-radius: 1px;
     margin: 150px auto;
+    */
 }
 
 /*Título 4*/
